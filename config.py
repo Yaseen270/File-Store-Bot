@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "28870226"))
 API_HASH = environ.get("API_HASH", "a5b1ff3f75941649bf5bc159782f0f00")
 BOT_TOKEN = environ.get("BOT_TOKEN", "8058427180:AAHdhCDxWhjmfcBl3bI68T1HuNbqjmKpov4")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'jpg'ttps://i.ibb.co/MkdSHjW6/photo-2025-09-01-13-45-10-7545116409211125768.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7528643689').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "FileCtgStoreBot") # without @
 PORT = environ.get("PORT", "8080")
